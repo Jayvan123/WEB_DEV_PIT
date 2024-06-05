@@ -26,6 +26,13 @@ const Application2 = () => {
             <h1 className='text-[20px] font-serif ml-[15px]'>
               __________________________________________________________________________________________________________
             </h1>
+
+            <div className = 'flex flex-col ml-[30px] mt-[20px] font-serif'>
+              Address 
+              <input type="text" id = 'address' className = 'ml-[] mt-[5px] h-[30px] w-[1350px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+            </div>
+        
+            
             <div className='flex flex-col'>
               <div className='flex flex-row'>
                 <div className='flex items-center justify-between w-full'>
