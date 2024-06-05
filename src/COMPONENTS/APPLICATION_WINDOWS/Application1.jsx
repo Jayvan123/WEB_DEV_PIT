@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo_img from '../IMAGES/logo-school.png';
+import logo_img from '../../IMAGES/logo-school.png'
 
 
 const Application1 = () => {

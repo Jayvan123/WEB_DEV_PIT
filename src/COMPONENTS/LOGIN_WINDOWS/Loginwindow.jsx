@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { NavLink } from 'react-router-dom'; 
-import bg_img from '../IMAGES/bg-window.png';
+import bg_img from '../../IMAGES/bg-window.png';
 
 
 const Loginwindow = () => {
@@ -41,7 +41,7 @@ const Loginwindow = () => {
             </div>
 
             <div>
-                <NavLink to="/application" className="flex text-white text-[12px] ml-[160px] mt-[30px] font-sans">
+                <NavLink to="/application1" className="flex text-white text-[12px] ml-[160px] mt-[30px] font-sans">
                     NOT A STUDENT? CLICK HERE
                 </NavLink>
             </div>
@@ -59,6 +59,7 @@ const Loginwindow = () => {
         <div className='ml-[90px] h-[680px] w-[700px] rounded-[10px] overflow-hidden'>
             <img src={bg_img} alt="" className='object-cover w-full h-full'/>
         </div>
+
     </div>
     
   )
