@@ -38,7 +38,7 @@ const Application2 = () => {
                   <NavLink to='/application1' className='ml-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
-                  <NavLink to='/application2' className='mr-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  <NavLink to='/application3' className='mr-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Proceed
                   </NavLink>
                 </div>
