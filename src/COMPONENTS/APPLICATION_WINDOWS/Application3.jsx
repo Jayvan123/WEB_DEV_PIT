@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo_img from '../../IMAGES/logo-school.png';
 
-const Application3 = () => {
+const Application2 = () => {
   return (
     <div className='flex flex-col h-screen'> {/* Header */}
       <div className='h-[90px] bg-[#072F5F] text-white flex items-center'>
@@ -32,7 +32,7 @@ const Application3 = () => {
                   <NavLink to='/application2' className='ml-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
-                  <NavLink to='/application3' className='mr-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  <NavLink to='/' className='mr-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Proceed
                   </NavLink>
                 </div>
@@ -42,7 +42,7 @@ const Application3 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Application3
+export default Application2;
