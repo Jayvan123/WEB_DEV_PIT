@@ -38,7 +38,7 @@ const Application2 = () => {
         
             <div className='flex flex-col'>
               <div className='flex flex-row'>
-                <div className='flex items-center justify-between w-full mt-[50px]'>
+                <div className='flex items-center justify-between w-full mt-[90px]'>
                   <NavLink to='/application2' className='ml-[15px] mt-[px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
