@@ -16,25 +16,28 @@ const Application1 = () => {
 
       <div className='flex flex-1 h-full'> {/* Sidebar */}
         <div className='w-[80px] bg-[#213A59] text-white flex flex-col'></div>
-        <div className='flex-1 p-4'>  {/* Main Content */}
+        <div className='flex-1 p-4'> {/* Main Content */}
           <div className='h-[40px] bg-[#D1DDED] rounded-[5px]'></div>
+          
           <div className='h-[520px] mt-[10px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
-            <div className='flex h-[45px] w-[500px] bg-[#213A59] ml-[15px] mt-[15px] rounded-[5px] text-[20px] text-white font-serif items-center justify-center'>
+            <div className='flex justify-center items-center h-[45px] w-[500px] bg-[#213A59] ml-[15px] mt-[15px] rounded-[5px] text-[20px] text-white font-serif'>
               <h1>CONFIRMATION :</h1>
             </div>
             <h1 className='text-[20px] font-serif ml-[15px]'>
               __________________________________________________________________________________________________________
             </h1>
-            <div className='flex flex-col'>
-              
-              
 
+            <div className='flex items-center justify-center ml-[] mt-[20px] h-[150px] w-[400px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify'>
+              {/* Additional content can be placed here */}
+            </div>
+            
+            <div className='flex flex-col'>
               <div className='flex flex-row'>
                 <div className='flex items-center justify-between w-full mt-[190px]'>
-                  <NavLink to='/application3' className='ml-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  <NavLink to='/application3' className='ml-[15px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
-                  <NavLink to='/' className='mr-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  <NavLink to='/' className='mr-[15px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Proceed
                   </NavLink>
                 </div>
