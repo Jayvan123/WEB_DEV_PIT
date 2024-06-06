@@ -30,58 +30,71 @@ const Application2 = () => {
             <div className='flex flex-row'>
                 <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                   Surname
-                  <input type='text' id='address' className='ml-[] mt-[5px] h-[30px] w-[200px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                  <input type='text' id='surname' className='ml-[] mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
 
                 <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                   Given Name
-                  <input type='text' id='dateofbirth' className='ml-[] mt-[5px] h-[30px] w-[200px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                  <input type='text' id='given_name' className='ml-[] mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
 
                 <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                   Middle Name
-                  <input type='text' id='dateofbirth' className='ml-[] mt-[5px] h-[30px] w-[200px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                  <input type='text' id='middle_name' className='ml-[] mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
 
                 <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                   M.I.
-                  <input type='text' id='dateofbirth' className='ml-[] mt-[5px] h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                  <input type='text' id='MI' className='ml-[] mt-[5px] h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
 
                 <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                   Ext
-                  <input type='text' id='dateofbirth' className='ml-[] mt-[5px] h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                  <input type='text' id='ext' className='ml-[] mt-[5px] h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
             </div>
 
-
             <div className='flex flex-row'>
-                <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
-                  Date of Birth
-                  <input type='text' id='address' className='ml-[] mt-[5px] h-[30px] w-[200px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+              <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
+                <label>Date of Birth</label>
+                <div className='flex flex-row mt-[5px] space-x-2'>
+                  <input
+                    type='text'
+                    placeholder='Year'
+                    className='h-[30px] w-[80px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-center'
+                  />
+                  <input
+                    type='text'
+                    placeholder='Month'
+                    className='h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-center'
+                  />
+                  <input
+                    type='text'
+                    placeholder='Day'
+                    className='h-[30px] w-[60px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-center'
+                  />
                 </div>
+              </div>
 
-                <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
-                  Place of Birth
-                  <input type='text' id='dateofbirth' className='ml-[] mt-[5px] h-[30px] w-[400px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
-                </div>
+              <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
+                Place of Birth
+                <input type='text' id='place_of_birth' className='ml-[] mt-[5px] h-[30px] w-[660px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+              </div>
             </div>
 
             <div className='flex flex-row'>
               <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                 <label htmlFor="gender">Gender</label>
-                <select id="gender" className='mt-[5px] h-[30px] w-[100px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans'>
+                <select id="gender" className='mt-[5px] h-[30px] w-[150px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans'>
                   <option value="" selected></option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
-                  <option value="other">Other</option>
-                  <option value="prefer_not_to_say">Prefer not to say</option>
                 </select>
               </div>
 
               <div className='flex flex-col ml-[30px] mt-[20px] font-serif'>
                 <label htmlFor="civil_status">Civil Status</label>
-                <select id="civil_status" className='mt-[5px] h-[30px] w-[200px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans'>
+                <select id="civil_status" className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans'>
                   <option value="" selected></option>
                   <option value="single">Single</option>
                   <option value="married">Married</option>
@@ -91,11 +104,9 @@ const Application2 = () => {
               </div>
             </div>
 
-
-            
             <div className='flex flex-col'>
               <div className='flex flex-row'>
-                <div className='flex items-center justify-between w-full mt-[95px]'>
+                <div className='flex items-center justify-between w-full mt-[97px]'>
                   <NavLink to='/application1' className='ml-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
@@ -105,6 +116,7 @@ const Application2 = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

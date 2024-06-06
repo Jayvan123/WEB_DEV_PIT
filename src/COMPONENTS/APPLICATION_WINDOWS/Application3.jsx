@@ -31,14 +31,18 @@ const Application2 = () => {
               Address 
               <input type="text" id = 'address' className = 'ml-[] mt-[5px] h-[30px] w-[1350px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
             </div>
+
+            <div className ='flex flex-row'>
+              
+            </div>
         
             <div className='flex flex-col'>
               <div className='flex flex-row'>
-                <div className='flex items-center justify-between w-full'>
-                  <NavLink to='/application2' className='ml-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                <div className='flex items-center justify-between w-full mt-[50px]'>
+                  <NavLink to='/application2' className='ml-[15px] mt-[px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
-                  <NavLink to='/' className='mr-[15px] mt-[190px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  <NavLink to='/' className='mr-[15px] mt-[px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Proceed
                   </NavLink>
                 </div>
