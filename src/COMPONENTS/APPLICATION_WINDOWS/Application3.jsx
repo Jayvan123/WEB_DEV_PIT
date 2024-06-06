@@ -29,8 +29,60 @@ const Application2 = () => {
 
             <div className = 'flex flex-col ml-[30px] mt-[20px] font-serif'>
               Address 
-              <input type="text" id = 'address' className = 'ml-[] mt-[5px] h-[30px] w-[1350px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+              <input type="text" id = 'address' className = 'ml-[] mt-[5px] h-[30px] w-[1000px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
             </div>
+
+            <div className='ml-[30px] mt-[20px] font-serif'>
+              <div className='flex flex-row'>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>Province/Region</div>
+                  <input type='text' id='provinceregion' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>City</div>
+                  <input type='text' id='city' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col'>
+                  <div>Barangay</div>
+                  <input type='text' id='barangay' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+              </div>
+            </div>
+
+            <div className='ml-[30px] mt-[20px] font-serif'>
+              <div className='flex flex-row'>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>Nationality</div>
+                  <input type='text' id='nationality' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>Religion</div>
+                  <input type='text' id='religion' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col'>
+                  <div>Ethnic Affiliation</div>
+                  <input type='text' id='ethnicaffiliation' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+              </div>
+            </div>
+
+            <div className='ml-[30px] mt-[20px] font-serif'>
+              <div className='flex flex-row'>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>Telephone Number</div>
+                  <input type='text' id='telnumber' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col mr-[30px]'>
+                  <div>Mobile Number</div>
+                  <input type='text' id='mobilenumber' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+                <div className='flex flex-col'>
+                  <div>Email</div>
+                  <input type='text' id='email' className='mt-[5px] h-[30px] w-[250px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
+                </div>
+              </div>
+            </div>
+
 
             <div className ='flex flex-row'>
               
@@ -38,7 +90,7 @@ const Application2 = () => {
         
             <div className='flex flex-col'>
               <div className='flex flex-row'>
-                <div className='flex items-center justify-between w-full mt-[90px]'>
+                <div className='flex items-center justify-between w-full mt-[18px]'>
                   <NavLink to='/application2' className='ml-[15px] mt-[px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
