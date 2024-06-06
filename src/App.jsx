@@ -6,7 +6,10 @@ import About from './COMPONENTS/LOGIN_WINDOWS/About';
 import Requirements from './COMPONENTS/LOGIN_WINDOWS/Requirements';
 import Application1 from './COMPONENTS/APPLICATION_WINDOWS/Application1';
 import Application2 from './COMPONENTS/APPLICATION_WINDOWS/Application2'; 
-import Application3 from './COMPONENTS/APPLICATION_WINDOWS/Application3'
+import Application3 from './COMPONENTS/APPLICATION_WINDOWS/Application3';
+import Application4 from './COMPONENTS/APPLICATION_WINDOWS/Application4'
+
+
 
 function App() {
 
@@ -20,6 +23,8 @@ function App() {
         <Route path="/application1" element={<Application1 />} />
         <Route path="/application2" element={<Application2 />} />
         <Route path="/application3" element={<Application3 />} />
+        <Route path="/application4" element={<Application4 />} />
+        
 
       </Routes>
     </Router>
@@ -27,4 +32,4 @@ function App() {
   
 }
 
-export default App;
+export default App; 
