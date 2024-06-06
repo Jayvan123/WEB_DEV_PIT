@@ -29,7 +29,7 @@ const Application1 = () => {
                 __________________________________________________________________________________________________________
                 </h1>
 
-              <div className='flex flex-col items-center justify-center mt-[20px] h-[150px] w-[400px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-serif text-justify'>
+              <div className='flex flex-col items-center justify-center mt-[20px] h-[200px] w-[500px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-serif text-justify p-[15px]'>
                 <p>Your application has been approved. Here is your student account:</p>
                 <p className='font-bold'>Username:</p>
                 <p className='font-bold'>Password:</p>
@@ -39,7 +39,7 @@ const Application1 = () => {
 
             <div className='flex flex-col'>
               <div className='flex flex-row'>
-                <div className='flex items-center justify-between w-full mt-[190px]'>
+                <div className='flex items-center justify-between w-full mt-[150px]'>
                   <NavLink to='/application3' className='ml-[15px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Back  
                   </NavLink>
