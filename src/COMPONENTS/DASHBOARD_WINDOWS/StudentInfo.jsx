@@ -11,8 +11,9 @@ const StudentInfo = () => {
         
         <div className='flex-1 bg-[#f0f0f0] p-[20px] flex justify-center items-center'>
           <div className='w-full max-w-[1100px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px]'>
-            <div className='text-center mb-[20px] font-serif'>
-              <h1>Student Info</h1>
+            <div className='text-center mb-[7px] font-serif '>
+              <h1>Student Information</h1>
+              <h1>_______________________________________________________________________________________________________</h1>
             </div>
 
             <div className='flex flex-col items-center font-serif'>
