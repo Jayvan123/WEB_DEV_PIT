@@ -20,13 +20,28 @@ const Enrollment = () => {
           <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
             {/* CONTENT */}
             
-            <div className='flex h-[45px] w-[500px] bg-[#213A59] ml-[15px] mt-[15px] rounded-[5px] text-[20px] text-white font-serif items-center justify-center'>
-              <h1>Enrollment Process 1/3</h1>
+            <div className='flex h-[45px] w-[250px] bg-[#213A59] ml-[15px] mt-[15px] rounded-[5px] text-[20px] text-white font-serif items-center justify-center'>
+              <h1>Enrollment Process 1/4:</h1>
             </div>
             <h1 className='text-[20px] font-serif ml-[15px] mt-[20px]'>PERSONAL INFORMATION</h1>
-            
+            <div className='ml-[30px] mt-[20px] font-serif'>
+              <div className='flex flex-row'>
+                <div className='flex flex-col mr-[50px]'>
+                  <div>#1Enrollment Setup</div>
+                </div>
+                <div className='flex flex-col mr-[50px]'>
+                  <div>#2 Advertising</div>
+                </div>
+                <div className='flex flex-col'>
+                  <div>#3 Confirmation</div>
+                </div>
+                  <div className='flex flex-col mr-[50px] ml-[50px]'>
+                  <div>#4 Enrolled</div>
+                </div>
+              </div>
+            </div>
             <h1 className='text-[20px] font-serif ml-[15px]'>
-              __________________________________________________________________________________________________________
+              __________________________________________________________________________________________________  
             </h1>
             
 
