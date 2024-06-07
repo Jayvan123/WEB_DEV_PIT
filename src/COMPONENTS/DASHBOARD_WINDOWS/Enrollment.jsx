@@ -4,7 +4,6 @@ import Sidebar from './Sidebar';
 import { Outlet } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-
 const Enrollment = () => {
   return (
     <div className='flex flex-col h-screen'>
