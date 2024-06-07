@@ -41,11 +41,14 @@ export const Enrollment4 = () => {
             <h1 className='text-[20px] font-serif ml-[15px]'>
               __________________________________________________________________________________________________
             </h1>
-              
-            <div className = ''>
-                <NavLink to='/' className='ml-[1180px] mt-[50px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
-                    Proceed 
-                </NavLink>
+
+            <div className='flex items-center justify-between w-full mt-[97px]'>
+                  <NavLink to='/dashboard/enrollment3' className='ml-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                    Back  
+                  </NavLink>
+                  <NavLink to='/' className='mr-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                    Proceed
+                  </NavLink>
             </div>
             
           </div>

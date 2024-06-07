@@ -109,6 +109,7 @@ const Enrollment1 = () => {
                     Proceed 
                 </NavLink>
             </div>
+
             
           </div>
 
