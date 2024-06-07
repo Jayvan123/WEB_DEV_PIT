@@ -1,15 +1,13 @@
-import React from 'react'
-
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Loginwindow from './COMPONENTS/LOGIN_WINDOWS/Loginwindow';
 import About from './COMPONENTS/LOGIN_WINDOWS/About';
 import Requirements from './COMPONENTS/LOGIN_WINDOWS/Requirements';
 import Application1 from './COMPONENTS/APPLICATION_WINDOWS/Application1';
-import Application2 from './COMPONENTS/APPLICATION_WINDOWS/Application2'; 
+import Application2 from './COMPONENTS/APPLICATION_WINDOWS/Application2';
 import Application3 from './COMPONENTS/APPLICATION_WINDOWS/Application3';
-import Application4 from './COMPONENTS/APPLICATION_WINDOWS/Application4'
-
-
+import Application4 from './COMPONENTS/APPLICATION_WINDOWS/Application4';
+import Dashboard from './COMPONENTS/DASHBOARD_WINDOWS/Dashboard';
 
 function App() {
 
@@ -25,7 +23,6 @@ function App() {
         <Route path="/application3" element={<Application3 />} />
         <Route path="/application4" element={<Application4 />} />
         
-
       </Routes>
     </Router>
   );

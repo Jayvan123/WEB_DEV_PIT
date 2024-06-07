@@ -30,10 +30,10 @@ const Application1 = () => {
                 </h1>
 
               <div className='flex flex-col items-center justify-center mt-[20px] h-[200px] w-[500px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-serif text-justify p-[15px]'>
-                <p>Your application has been approved. Here is your student account:</p>
-                <p className='font-bold'>Username:</p>
-                <p className='font-bold'>Password:</p>
-                <p>Kindly proceed to enrollment.</p>
+                <p className = 'text-center'>Your application has been approved. Here is your student account:</p>
+                <p className= 'font-bold text-center'>Username:</p>
+                <p className= 'font-bold text-center'>Password:</p>
+                <p className = 'text-center'>Kindly proceed to enrollment.</p>
               </div>
             </div>
 
