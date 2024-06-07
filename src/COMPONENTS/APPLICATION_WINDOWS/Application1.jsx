@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo_img from '../../IMAGES/logo-school.png';
+import logo_school from '../../IMAGES/logo-school.png';
 
 const Application1 = () => {
   return (
     <div className='flex flex-col h-screen'> {/* Header */}
       <div className='h-[90px] bg-[#072F5F] text-white flex items-center'>
         <div className='h-[90px] w-[90px] ml-[10px]'>
-          <img src={logo_img} alt="" className='object-cover'/>
+          <img src={logo_school} alt="" className='object-cover'/>
         </div>
         <div className='flex ml-[20px] text-white text-[20px] font-serif'>
           JMHTech Institute: Empowering Tomorrows Innovators
