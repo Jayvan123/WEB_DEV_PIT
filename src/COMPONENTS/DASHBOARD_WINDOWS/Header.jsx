@@ -14,7 +14,7 @@ const Header = () => {
         JMHTech Institute: Empowering Tomorrows Innovators
       </div>
       
-      <div className='flex items-center ml-[1000px] mr-[50px]'>
+      <div className='flex items-center ml-[560px] mr-[50px]'>
         <div className='h-[70px] w-[70px]'>
           <img src={user_logo} alt="" className='object-cover' />
         </div>
