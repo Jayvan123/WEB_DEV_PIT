@@ -7,7 +7,7 @@ const Sidebar = () => {
 
       <NavLink to="/dashboard" className='p-[10px] text-white'>Dashboard</NavLink>
       <NavLink to="/dashboard/student_info" className='p-[10px] text-white'>Student Info</NavLink>
-      <NavLink to="/dashboard/enrollment" className='p-[10px] text-white'>Enrollment</NavLink>
+      <NavLink to="/dashboard/enrollment1" className='p-[10px] text-white'>Enrollment</NavLink>
       {/* <NavLink to="/" className='p-[10px] text-white'>Log Out</NavLink> */}
       
     </div>

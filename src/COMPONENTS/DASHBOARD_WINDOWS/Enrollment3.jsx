@@ -4,7 +4,8 @@ import Sidebar from './Sidebar';
 import { Outlet } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-const Enrollment2 = () => {
+
+const Enrollment3 = () => {
   return (
     <div className='flex flex-col h-screen'>
       <Header />
@@ -27,10 +28,10 @@ const Enrollment2 = () => {
                 <div className='flex flex-col mr-[50px]'>
                   <div>#1 Enrollment Setup</div>
                 </div>
-                <div className='flex flex-col mr-[50px] font-bold'>
+                <div className='flex flex-col mr-[50px]'>
                   <div>#2 Advertising</div>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col font-bold'>
                   <div>#3 Confirmation</div>
                 </div>
                 <div className='flex flex-col mr-[50px] ml-[50px]'>
@@ -43,7 +44,7 @@ const Enrollment2 = () => {
             </h1>
               
             <div className = ''>
-                <NavLink to='/dashboard/enrollment3' className='ml-[1180px] mt-[50px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                <NavLink to='/dashboard/enrollment4' className='ml-[1180px] mt-[50px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                     Proceed 
                 </NavLink>
             </div>
@@ -54,7 +55,7 @@ const Enrollment2 = () => {
 
       </div>
     </div>
-  );
+  )
 }
 
-export default Enrollment2;
+export default Enrollment3
