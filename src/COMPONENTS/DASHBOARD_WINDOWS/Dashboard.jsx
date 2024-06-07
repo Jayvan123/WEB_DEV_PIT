@@ -13,26 +13,30 @@ const Dashboard = () => {
         <div className='flex-1 bg-[#f0f0f0] p-[20px]'>
 
           <div className='flex h-[40px] bg-[#D1DDED] rounded-[5px] mb-[10px] font-serif items-center'>
-            <h1 className = 'ml-[10px]'>Welcome back, User</h1>
+            <h1 className='ml-[10px]'>Welcome Back, User</h1>
           </div>
 
-          <div className='h-[520px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
+          <div className='flex flex-wrap bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px] justify-around'>
+            <div className='flex flex-wrap w-full'>
+              <button className='flex flex-col items-center justify-center h-[150px] w-[350px] bg-[#758AA5] rounded-[10px] m-[10px]'>
+                <span className='text-white text-lg'>NOTIFICATIONS</span>
+                <span className='text-white mt-[10px]'>See All</span>
+              </button>
+              
+              <button className='flex flex-col items-center justify-center h-[150px] w-[350px] bg-[#FF3131] rounded-[10px] m-[10px]'>
+                <span className='text-white text-lg'>ENROLLMENT</span>
+              </button>
+              
+              <button className='flex flex-col items-center justify-center h-[150px] w-[350px] bg-[#1E90FF] rounded-[10px] m-[10px]'>
+                <span className='text-white text-lg'>GRADES</span>
+              </button>
 
-          <div className='flex-row ml-[50px] mt-[40px] h-[200px] w-[400px] bg-[#758AA5] rounded-[10px]'>
-          
-          <div className='flex-row ml-[450px] mt-[40px] h-[200px] w-[150px] bg-[#FF3131] rounded-[10px]'>
-
-          <div className='flex-row ml-[200px] mt-[40px] h-[200px] w-[150px] bg-[#758AA5] rounded-[10px]'>
+              <button className='flex flex-col items-center justify-center h-[150px] w-[350px] bg-[#E26A6A] rounded-[10px] m-[10px]'>
+                <span className='text-white text-lg'>GET SOME HELP</span>
+                <span className='text-white mt-[10px]'>See All</span>
+              </button>
+            </div>
           </div>
-          </div>
-          </div>
-          </div>
-          <div className='flex-row ml-[50px] mt-[-250px] h-[200px] w-[400px] bg-[#E26A6A] rounded-[10px]'>
-          {/* <div className='flex-row ml-[450px] mt-[-250px] h-[200px] w-[150px] bg-[#E26A6A] rounded-[10px]'>
-
-          </div> */}
-          </div>
-
 
         </div>
       </div>
