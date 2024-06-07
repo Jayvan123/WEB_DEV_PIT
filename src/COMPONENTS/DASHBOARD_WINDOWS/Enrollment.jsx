@@ -103,7 +103,7 @@ const Enrollment = () => {
                 </select>
               </div>
             </div>
-
+              
             {/* CONTENT */}
           </div>
 
