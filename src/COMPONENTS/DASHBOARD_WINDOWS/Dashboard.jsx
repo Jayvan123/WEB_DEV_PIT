@@ -19,20 +19,20 @@ const Dashboard = () => {
           <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[50px] '>
             <div className='flex flex-wrap justify-between'>
               
-              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#758AA5] rounded-[10px] m-[10px]'>
-                <span className='text-lg text-white'>NOTIFICATIONS</span>
+              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#758AA5] rounded-[5px] m-[10px]'>
+                <span className='text-lg font-bold text-white'>NOTIFICATIONS</span>
                 <span className='text-white mt-[10px]'>See All</span>
               </button>
               
-              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#FF3131] rounded-[10px] m-[10px]'>
+              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#FF3131] rounded-[5px] m-[10px]'>
                 <span className='text-lg text-white'>ENROLLMENT</span>
               </button>
               
-              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#1E90FF] rounded-[10px] m-[10px]'>
+              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#1E90FF] rounded-[5px] m-[10px]'>
                 <span className='text-lg text-white'>GRADES</span>
               </button>
               
-              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#E26A6A] rounded-[10px] m-[10px]'>
+              <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#E26A6A] rounded-[5px] m-[10px]'>
                 <span className='text-lg text-white'>GET SOME HELP</span>
                 <span className='text-white mt-[10px]'>See All</span>
               </button>
