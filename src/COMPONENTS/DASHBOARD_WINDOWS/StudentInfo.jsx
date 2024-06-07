@@ -7,20 +7,20 @@ const StudentInfo = () => {
   return (
     <div className='flex flex-col h-screen'>
       <Header />
-      
       <div className='flex flex-1'>
         <Sidebar />
         
-        <div className='flex-1 bg-[#f0f0f0] p-[20px] flex justify-center items-center'>
-          <div className='w-full max-w-[1100px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px]'>
-            <div className='text-center mb-[7px] font-serif '>
-              
-              <h1>Student Information</h1>
+        <div className='flex-1 bg-[#f0f0f0] p-[20px]'>
+          <div className='flex h-[40px] bg-[#D1DDED] rounded-[5px] mb-[10px] font-serif items-center'>
+          </div>
+
+          <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px]'>
+            <div className='text-center mb-[7px] font-serif'>
+              <h1 className = 'font-bold'>Student Information</h1>
               <h1>_______________________________________________________________________________________________________</h1>
             </div>
 
             <div className='flex flex-col items-center font-serif'>
-
               {/* Name Fields */}
               <div className='flex flex-row mb-[20px] w-full justify-between'>
                 <div className='flex flex-col mr-[10px]'>
@@ -90,14 +90,14 @@ const StudentInfo = () => {
                 <label htmlFor='address'>Full Address (Province/Region, Municipality / City, Barangay, Zip Code)</label>
                 <input type='text' id='address' className='mt-[5px] h-[30px] w-full bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
               </div>
-              
-              {/* Proceed Button */}
-              <div className='flex items-center w-full ml-[1940px] mt-[20px]'>
-                <NavLink to='/' className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+
+              {/* Edit Info Button */}
+              <div className='flex items-center justify-between w-full mt-[4px]'>
+                <NavLink to='/edit-info' className='font-sans ml-[1200px] text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                   Edit Info
                 </NavLink>
               </div>
-              
+
             </div>
           </div>
         </div>

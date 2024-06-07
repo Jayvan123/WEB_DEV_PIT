@@ -16,24 +16,24 @@ const Dashboard = () => {
             <h1 className='ml-[10px]'>Welcome Back, User</h1>
           </div>
 
-          <div className='bg-[#FFFFFF] rounded-[10px] border-solid border-black border-[1px] p-[50px] '>
+          <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[50px] '>
             <div className='flex flex-wrap justify-between'>
               
               <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#758AA5] rounded-[10px] m-[10px]'>
-                <span className='text-white text-lg'>NOTIFICATIONS</span>
+                <span className='text-lg text-white'>NOTIFICATIONS</span>
                 <span className='text-white mt-[10px]'>See All</span>
               </button>
               
               <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#FF3131] rounded-[10px] m-[10px]'>
-                <span className='text-white text-lg'>ENROLLMENT</span>
+                <span className='text-lg text-white'>ENROLLMENT</span>
               </button>
               
               <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#1E90FF] rounded-[10px] m-[10px]'>
-                <span className='text-white text-lg'>GRADES</span>
+                <span className='text-lg text-white'>GRADES</span>
               </button>
               
               <button className='flex flex-col items-center justify-center h-[200px] w-[300px] bg-[#E26A6A] rounded-[10px] m-[10px]'>
-                <span className='text-white text-lg'>GET SOME HELP</span>
+                <span className='text-lg text-white'>GET SOME HELP</span>
                 <span className='text-white mt-[10px]'>See All</span>
               </button>
             </div>
