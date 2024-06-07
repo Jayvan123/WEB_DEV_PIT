@@ -42,13 +42,66 @@ const Enrollment2 = () => {
               __________________________________________________________________________________________________
             </h1>
               
-            <div className='flex items-center justify-between w-full mt-[97px]'>
-                  <NavLink to='/dashboard/enrollment1' className='ml-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
-                    Back  
-                  </NavLink>
-                  <NavLink to='/dashboard/enrollment3' className='mr-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
-                    Proceed
-                  </NavLink>
+            <div className='flex flex-row items-center'>
+              <label htmlFor="academicyearterm" className='ml-[400px] mt-[20px] font-serif w-[200px] text-right pr-[10px] font-bold'>Class Section</label>
+              <select id="academicyearterm" className='mt-[18px] h-[30px] w-[110px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans'>
+                <option value="" disabled selected></option>
+                <option value="2024-1st-Semester">Option</option>
+                <option value="2024-2nd-Semester">Option</option>
+                <option value="2025-1st-Semester">Option</option>
+                <option value="2025-2nd-Semester">Option</option>
+              </select>
+            </div>
+
+            <div className='mt-[20px] mx-[30px]'>
+              <table className='w-full bg-[#D1DDED] border-collapse'>
+                <thead>
+                  <tr>
+                    <th className='border border-black p-[8px] font-serif'>Subject Code</th>
+                    <th className='border border-black p-[8px] font-serif'>Subject</th>
+                    <th className='border border-black p-[8px] font-serif'>Units</th>
+                    <th className='border border-black p-[8px] font-serif'>Section</th>
+                    <th className='border border-black p-[8px] font-serif'>Schedule</th>
+                    <th className='border border-black p-[8px] font-serif'>Faculty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className='border border-black p-[8px] font-serif'>CS101</td>
+                    <td className='border border-black p-[8px] font-serif'>Introduction to Computer Science</td>
+                    <td className='border border-black p-[8px] font-serif'>3</td>
+                    <td className='border border-black p-[8px] font-serif'>A1</td>
+                    <td className='border border-black p-[8px] font-serif'>MWF 10:00-11:00</td>
+                    <td className='border border-black p-[8px] font-serif'>Dr. Smith</td>
+                  </tr>
+                  <tr>
+                    <td className='border border-black p-[8px] font-serif'>CS101</td>
+                    <td className='border border-black p-[8px] font-serif'>Introduction to Computer Science</td>
+                    <td className='border border-black p-[8px] font-serif'>3</td>
+                    <td className='border border-black p-[8px] font-serif'>A1</td>
+                    <td className='border border-black p-[8px] font-serif'>MWF 10:00-11:00</td>
+                    <td className='border border-black p-[8px] font-serif'>Dr. Smith</td>
+                  </tr>
+                  <tr>
+                    <td className='border border-black p-[8px] font-serif'>CS101</td>
+                    <td className='border border-black p-[8px] font-serif'>Introduction to Computer Science</td>
+                    <td className='border border-black p-[8px] font-serif'>3</td>
+                    <td className='border border-black p-[8px] font-serif'>A1</td>
+                    <td className='border border-black p-[8px] font-serif'>MWF 10:00-11:00</td>
+                    <td className='border border-black p-[8px] font-serif'>Dr. Smith</td>
+                  </tr>
+                  {/* Add more rows as needed */}
+                </tbody>
+              </table>
+            </div>
+
+            <div className='flex items-center justify-between w-full mt-[55px]'>
+              <NavLink to='/dashboard/enrollment1' className='ml-[15px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                Back  
+              </NavLink>
+              <NavLink to='/dashboard/enrollment3' className='mr-[15px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                Proceed
+              </NavLink>
             </div>
             
           </div>
