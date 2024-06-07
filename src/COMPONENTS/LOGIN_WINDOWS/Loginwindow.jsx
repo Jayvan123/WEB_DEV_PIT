@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { NavLink } from 'react-router-dom'; 
-import bg_img from '../../IMAGES/bg-window.png';
+import bg_img from '../../IMAGES/IMAGES_LOGINWINDOW/bg-window.png';
 
 const Loginwindow = () => {
 

@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 import { Outlet } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-const Enrollment = () => {
+const Enrollment2 = () => {
   return (
     <div className='flex flex-col h-screen'>
       <Header />
@@ -40,4 +40,4 @@ const Enrollment = () => {
   );
 }
 
-export default Enrollment;
+export default Enrollment2;
