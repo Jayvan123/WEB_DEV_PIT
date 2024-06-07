@@ -56,3 +56,5 @@ export const Enrollment4 = () => {
     </div>
   )
 }
+
+export default Enrollment4; 
