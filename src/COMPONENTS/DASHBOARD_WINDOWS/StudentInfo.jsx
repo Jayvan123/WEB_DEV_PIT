@@ -43,11 +43,11 @@ const StudentInfo = () => {
                   <label htmlFor='extendedname'>Extended Name</label>
                   <input type='text' id='extendedname' className='mt-[5px] h-[30px] w-[155px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
-                <div className='flex flex-col mr-[10px]'>
+                <div className='flex flex-col mr-[10x]'>
                   <label htmlFor='gender'>Gender</label>
                   <input type='text' id='gender' className='mt-[5px] h-[30px] w-[155px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
-                <div className='flex flex-col mr-[10px]'>
+                <div className='flex flex-col mr-[51px]'>
                   <label htmlFor='dob'>Date of Birth</label>
                   <input type='text' id='dob' className='mt-[5px] h-[30px] w-[340px] bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
                 </div>
@@ -93,10 +93,14 @@ const StudentInfo = () => {
 
               {/* Edit Info Button */}
               <div className='flex items-center justify-between w-full mt-[4px]'>
-                <NavLink to='/edit-info' className='font-sans ml-[1200px] text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
-                  Edit Info
-                </NavLink>
-              </div>
+              <NavLink 
+                to='/edit-info' 
+                className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center ml-auto mr-[15px]'
+              >
+                Edit Info
+              </NavLink>
+            </div>
+
 
             </div>
           </div>
