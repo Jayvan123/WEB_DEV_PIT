@@ -18,7 +18,7 @@ const Enrollment = () => {
           </div>
 
           <div className='h-[520px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
-
+            <p>ENROLLMENT</p>
           </div>
 
         </div>

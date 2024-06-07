@@ -17,6 +17,8 @@ const Dashboard = () => {
 
           <div className='h-[520px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
 
+            <p>DASHBOARD</p>
+
           </div>
 
         </div>
