@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'; // Import NavLink
 import Header from './Header';
 import Sidebar from './Sidebar';
 
@@ -87,12 +88,14 @@ const StudentInfo = () => {
                 <label htmlFor='address'>Full Address (Province/Region, Municipality / City, Barangay, Zip Code)</label>
                 <input type='text' id='address' className='mt-[5px] h-[30px] w-full bg-[#D1DDED] border-solid border-black border-[1px] rounded-[3px] font-sans text-justify' />
               </div>
-              {/* <div className='flex items-center justify-between w-full mt-[190px]'>
-                
-                  <NavLink to='/' className='mr-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
-                    Proceed
-                  </NavLink>
-                </div> */}
+              
+              {/* Proceed Button */}
+              <div className='flex items-center w-full ml-[1940px] mt-[20px]'>
+                <NavLink to='/' className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                  Edit Info
+                </NavLink>
+              </div>
+              
             </div>
           </div>
         </div>
