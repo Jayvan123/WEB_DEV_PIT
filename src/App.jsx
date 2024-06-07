@@ -25,7 +25,7 @@ function App() {
 
         {/* Dashboard Route with nested routes */}
         <Route path="/dashboard" element={<Dashboard />}>
-          <Route path="student-info" element={<StudentInfo />} />
+          <Route path="student_info" element={<StudentInfo />} />
           <Route path="enrollment" element={<Enrollment />} />
           {/* Add more nested routes here as needed */}
         </Route>
