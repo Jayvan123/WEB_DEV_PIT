@@ -104,7 +104,12 @@ const Enrollment = () => {
               </div>
             </div>
               
-            {/* CONTENT */}
+            <div className = ''>
+                <NavLink to='/' className='ml-[1180px] mt-[50px] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+                    Back  
+                </NavLink>
+            </div>
+            
           </div>
 
         </div>
