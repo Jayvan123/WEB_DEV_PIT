@@ -57,4 +57,8 @@ export const Enrollment4 = () => {
   )
 }
 
+<<<<<<< Updated upstream
 export default Enrollment4; 
+=======
+export default Enrollment4
+>>>>>>> Stashed changes

@@ -17,7 +17,7 @@ const StudentInfo = () => {
           <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px]'>
             <div className='text-center mb-[7px] font-serif'>
               <h1 className = 'font-bold'>Student Information</h1>
-              <h1>_______________________________________________________________________________________________________</h1>
+              <h1>__________________________________________________________________________________________________________________________</h1>
             </div>
 
             <div className='flex flex-col items-center font-serif'>
