@@ -18,9 +18,21 @@ const Dashboard = () => {
 
           <div className='h-[520px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
 
-            <p>DASHBOARD</p>
+          <div className='flex-row ml-[50px] mt-[40px] h-[200px] w-[400px] bg-[#758AA5] rounded-[10px]'>
+          
+          <div className='flex-row ml-[450px] mt-[40px] h-[200px] w-[150px] bg-[#FF3131] rounded-[10px]'>
 
+          <div className='flex-row ml-[200px] mt-[40px] h-[200px] w-[150px] bg-[#758AA5] rounded-[10px]'>
           </div>
+          </div>
+          </div>
+          </div>
+          <div className='flex-row ml-[50px] mt-[-250px] h-[200px] w-[400px] bg-[#E26A6A] rounded-[10px]'>
+          {/* <div className='flex-row ml-[450px] mt-[-250px] h-[200px] w-[150px] bg-[#E26A6A] rounded-[10px]'>
+
+          </div> */}
+          </div>
+
 
         </div>
       </div>
