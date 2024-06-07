@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
-import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -11,10 +10,17 @@ const Dashboard = () => {
       <div className='flex flex-1'>
         <Sidebar />
         <div className='flex-1 bg-[#f0f0f0] p-[20px]'>
-          <Outlet /> {/* This will render the nested routes */}
+
+          <div className='flex h-[40px] bg-[#D1DDED] rounded-[5px] mb-[10px] font-serif items-center'>
+            <h1 className = 'ml-[10px]'>Welcome back, User</h1>
+          </div>
+
+          <div className='h-[520px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px]'>
+
+          </div>
+
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

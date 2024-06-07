@@ -4,8 +4,13 @@ import logo_img from '../../IMAGES/logo-school.png';
 
 const Header = () => {
   return (
-    <div className='h-[60px] bg-[#213A59] text-white flex items-center justify-center'>
-      <h1 className='text-[20px] font-bold'>Header</h1>
+    <div className='h-[90px] bg-[#072F5F] text-white flex items-center'>
+      <div className='h-[90px] w-[90px] ml-[10px]'>
+        <img src={logo_img} alt="" className='object-cover'/>
+      </div>
+      <div className='flex ml-[20px] text-white text-[20px] font-serif'>
+        JMHTech Institute: Empowering Tomorrows Innovators
+      </div>
     </div>
   )
 }
