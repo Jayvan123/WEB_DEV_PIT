@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <div className={`bg-[#213A59] text-white flex flex-col ${isExpanded ? 'w-[200px]' : 'w-[60px]'} transition-all duration-300`}>
       <div 
-        className='w-[40px] h-[40px] bg-[#072F5F] mt-[20px] ml-auto mr-[10px] rounded-[5px] flex items-center justify-center cursor-pointer'
+        className='w-[40px] h-[40px] bg-[#1E90FF] mt-[20px] ml-auto mr-[10px] rounded-[5px] flex items-center justify-center cursor-pointer'
         onClick={toggleSidebar}
       >
         {isExpanded ? '-' : '+'}
