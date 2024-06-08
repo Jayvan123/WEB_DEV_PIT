@@ -16,7 +16,7 @@ const StudentInfo = () => {
 
           <div className='h-[520px] w-[1290px] bg-[#FFFFFF] rounded-[5px] border-solid border-black border-[1px] p-[20px]'>
             <div className='text-center mb-[7px] font-serif'>
-              <h1 className = 'font-bold'>Student Information</h1>
+              <h1 className = 'font-bold text-[20px]'>Student Information</h1>
               <h1>__________________________________________________________________________________________________________________________</h1>
             </div>
 
@@ -92,15 +92,12 @@ const StudentInfo = () => {
               </div>
 
               {/* Edit Info Button */}
-              <div className='flex items-center justify-between w-full mt-[4px]'>
-              <NavLink 
-                to='/edit-info' 
-                className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center ml-auto mr-[15px]'
-              >
-                Edit Info
-              </NavLink>
-            </div>
-
+              <div className='flex items-center justify-between w-full mt-[20]'>
+                <NavLink 
+                  to='/' className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center ml-auto mr-[15px]'>
+                    Edit Info
+                </NavLink>
+               </div>
 
             </div>
           </div>

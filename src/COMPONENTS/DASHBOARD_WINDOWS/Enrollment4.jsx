@@ -48,7 +48,7 @@ export const Enrollment4 = () => {
               {/* <NavLink to='/dashboard/enrollment3' className='ml-[15px] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                 Back
               </NavLink> */}
-              <NavLink to='/' className=' ml-[1180px] mr-[] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
+              <NavLink to='/dashboard' className=' ml-[1180px] mr-[] mt-[] font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center'>
                 Proceed
               </NavLink>
             </div>
