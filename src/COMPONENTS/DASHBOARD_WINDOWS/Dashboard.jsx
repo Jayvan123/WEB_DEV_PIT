@@ -30,13 +30,13 @@ const Dashboard = () => {
               <div className='flex flex-col items-center justify-center h-[200px] w-[200px] bg-[#FF3131] rounded-[5px] mb-[20px] ml-[40px]'>
                 <img src={enrollment_logo} alt="Enrollment Logo" className="w-[60px] h-[60px]" />
                 <p className='text-lg font-bold text-white'>ENROLLMENT</p>
-                <p className='text-white'>See All</p>
+                {/* <p className='text-white'>See All</p> */}
               </div>
 
               <div className='flex flex-col items-center justify-center h-[200px] w-[200px] bg-[#1E90FF] rounded-[5px] mb-[20px] ml-[40px]'>
                 <img src={grades_logo} alt="Grades Logo" className="w-[60px] h-[60px]" />
                 <p className='text-lg font-bold text-white'>GRADES</p>
-                <p className='text-white'>See All</p>
+                {/* <p className='text-white'>See All</p> */}
               </div>
 
               <div className='flex flex-col items-center justify-center h-[200px] w-[400px] bg-[#E26A6A] rounded-[5px] mt-[20px]'>
