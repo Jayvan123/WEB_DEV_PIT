@@ -8,7 +8,7 @@ import logout_logo from '../../IMAGES/IMAGES_DASHBOARD/logout-logo.png'
 const Header = () => {
   return (
     <div className='h-[90px] bg-[#072F5F] text-white flex items-center'>
-      <div className='h-[90px] w-[90px] ml-[10px]'>
+      <div className='h-[90px] w-[90px] ml-[15px]'>
         <img src={logo_school} alt="" className='object-cover' />
       </div>
       
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         
         <div className='flex items-center ml-[20px]'>
-          <div className='h-[30px] w-[30px]'>
+          <div className='h-[25px] w-[25px]'>
             <img src={logout_logo} alt="" />
           </div>
           <NavLink to="/" className='ml-[5px] text-white'>Log Out</NavLink>

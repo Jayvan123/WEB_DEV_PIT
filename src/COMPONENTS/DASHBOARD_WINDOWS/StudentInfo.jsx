@@ -92,9 +92,9 @@ const StudentInfo = () => {
               </div>
 
               {/* Edit Info Button */}
-              <div className='flex items-center justify-between w-full mt-[20]'>
+              <div className='flex items-center justify-between w-full mt-[10]'>
                 <NavLink 
-                  to='/' className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center ml-auto mr-[15px]'>
+                  to='/' className='font-sans text-white text-[15px] font-bold bg-[#3784DC] h-[35px] w-[90px] rounded-[3px] flex items-center justify-center ml-auto mr-[2px]'>
                     Edit Info
                 </NavLink>
                </div>
@@ -108,3 +108,5 @@ const StudentInfo = () => {
 }
 
 export default StudentInfo;
+
+//can you organize the code? use ml and mt instead of mr 
