@@ -45,6 +45,12 @@ const Dashboard = () => {
                 <p className='text-white'>See All</p>
               </div>
 
+              <div className='flex flex-col items-center justify-center h-[200px] w-[200px] bg-[#4B77BE] rounded-[5px] mb-[20px] ml-[40px] mt-[20px]'>
+                <img src={grades_logo} alt="Subjects Enrolled" className="w-[60px] h-[60px]" />
+                <p className='text-lg font-bold text-white'>Subjects Enrolled</p>
+                {/* <p className='text-white'>See All</p> */}
+              </div>
+
             </div>
             
           </div>
